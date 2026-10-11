@@ -1,0 +1,50 @@
+# Tiny Tapeout project information
+project:
+  title:        "Birdfeeder"
+  author:       "Jeff DiCorpo"
+  discord:      ""
+  description:  "Detection-arm birdfeeder door controller with SG90 continuous servo PWM"
+  language:     "Verilog"
+  clock_hz:     10000000
+
+  tiles: "1x1"
+
+  top_module:  "tt_um_jdicorpo_birdfeeder"
+
+  source_files:
+    - "project.v"
+    - "birdfeeder_top.v"
+    - "sg90_continuous_pwm.v"
+
+pinout:
+  # Inputs
+  ui[0]: ""
+  ui[1]: "arm"
+  ui[2]: "diag_up"
+  ui[3]: "diag_down"
+  ui[4]: ""
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: ""
+
+  # Outputs (8-segment LED)
+  uo[0]: "seg_a"
+  uo[1]: "seg_b"
+  uo[2]: "seg_c"
+  uo[3]: "seg_d"
+  uo[4]: "seg_e"
+  uo[5]: "seg_f"
+  uo[6]: "seg_g"
+  uo[7]: "dp_pwm"
+
+  # Bidirectional pins
+  uio[0]: "pwm_out"
+  uio[1]: "arm_alt"
+  uio[2]: ""
+  uio[3]: ""
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
+
+yaml_version: 6

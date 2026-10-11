@@ -1,0 +1,45 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*]
+[dumpfile] "tb.vcd"
+[savefile] "tb.gtkw"
+[timestart] 0
+[size] 1400 700
+[pos] -1 -1
+*-20.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[sst_width] 297
+[signals_width] 230
+[sst_expanded] 1
+[sst_vpaned_height] 200
+@28
+tb.clk
+tb.rst_n
+tb.ena
+@200
+-Inputs
+@28
+tb.trigger
+tb.pest
+tb.diag_up
+tb.diag_down
+@22
+tb.ui_in[7:0]
+@200
+-8-segment
+@22
+tb.seg[6:0]
+@28
+tb.dp
+@22
+tb.uo_out[7:0]
+@200
+-PWM (bidir)
+@28
+tb.pwm_out
+tb.pwm_oe
+@22
+tb.uio_out[7:0]
+tb.uio_oe[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
