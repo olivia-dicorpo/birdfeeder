@@ -5,8 +5,8 @@
 Tiny Tapeout Verilog design that opens and closes a birdfeeder hatch with an SG90 continuous-rotation servo.
 
 - [Project datasheet notes](docs/info.md)
-- Author: Jeff DiCorpo
-- Top module: `tt_um_jdicorpo_birdfeeder` (wraps `birdfeeder_top`)
+- Author: Olivia DiCorpo
+- Top module: `tt_um_olivia_dicorpo_birdfeeder` (wraps `birdfeeder_top`)
 - Clock: 10 MHz
 
 ## How it works

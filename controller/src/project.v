@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2025 Jeff DiCorpo
+ * Copyright (c) 2025 Olivia DiCorpo
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -7,7 +7,7 @@
 
 // Tiny Tapeout requires a tt_um_* top module name.
 // Design logic lives in birdfeeder_top.
-module tt_um_jdicorpo_birdfeeder #(
+module tt_um_olivia_dicorpo_birdfeeder #(
     parameter CLK_FREQ      = 10_000_000,
     parameter OPEN_TIME_MS  = 3000,
     parameter WAIT_TIME_MS  = 10000,

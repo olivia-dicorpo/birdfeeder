@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "Birdfeeder"
-  author:       "Jeff DiCorpo"
+  author:       "Olivia DiCorpo"
   discord:      ""
   description:  "Detection-arm birdfeeder door controller with SG90 continuous servo PWM"
   language:     "Verilog"
@@ -9,7 +9,7 @@ project:
 
   tiles: "1x1"
 
-  top_module:  "tt_um_jdicorpo_birdfeeder"
+  top_module:  "tt_um_olivia_dicorpo_birdfeeder"
 
   source_files:
     - "project.v"

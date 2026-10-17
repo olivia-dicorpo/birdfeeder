@@ -37,7 +37,7 @@ module tb ();
   wire VPWR = 1'b1;
   wire VGND = 1'b0;
 
-  tt_um_jdicorpo_birdfeeder user_project (
+  tt_um_olivia_dicorpo_birdfeeder user_project (
       .VPWR(VPWR),
       .VGND(VGND),
       .ui_in  (ui_in),

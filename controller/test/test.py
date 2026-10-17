@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: © 2025 Jeff DiCorpo
+# SPDX-FileCopyrightText: © 2025 Olivia DiCorpo
 # SPDX-License-Identifier: Apache-2.0
 
 """Cocotb tests for the birdfeeder door FSM + SG90 PWM.

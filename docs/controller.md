@@ -34,7 +34,7 @@ Clock 10 MHz. PWM on `uio[0]` (OE only while active). 8-segment state on `uo_out
 
 | Path | Role |
 |------|------|
-| `controller/src/project.v` | `tt_um_jdicorpo_birdfeeder` wrapper |
+| `controller/src/project.v` | `tt_um_olivia_dicorpo_birdfeeder` wrapper |
 | `controller/src/birdfeeder_top.v` | Door FSM |
 | `controller/src/sg90_continuous_pwm.v` | 50 Hz PWM |
 | `controller/test/test.py` | Cocotb tests |

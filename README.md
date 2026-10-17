@@ -2,7 +2,7 @@
 
 Mechanical CAD for the feeder, plus a local copy of the hatch **controller**.
 
-The controller is maintained at **[olivia-dicorpo/birdfeeder-ctlr](https://github.com/olivia-dicorpo/birdfeeder-ctlr)** (Tiny Tapeout Verilog, forked from `jdicorpo/birdfeeder-ctlr-2`). Edit and CI live there. `controller/` here is that project so CAD and firmware can be read together.
+The controller is maintained at **[olivia-dicorpo/birdfeeder-ctlr](https://github.com/olivia-dicorpo/birdfeeder-ctlr)** (Tiny Tapeout Verilog). Edit and CI live there. `controller/` here is that project so CAD and firmware can be read together.
 
 ## Controller
 
@@ -11,9 +11,9 @@ A single detection-arm switch runs **open 3 s â†’ hold while the arm is closed â
 | | |
 |--|--|
 | Repo | [github.com/olivia-dicorpo/birdfeeder-ctlr](https://github.com/olivia-dicorpo/birdfeeder-ctlr) |
-| Top | `tt_um_jdicorpo_birdfeeder` |
+| Top | `tt_um_olivia_dicorpo_birdfeeder` |
 | Clock | 10 MHz |
-| Author | Jeff DiCorpo (Apache-2.0) |
+| Author | Olivia DiCorpo (Apache-2.0) |
 | Local tree | [`controller/`](controller/README.md) |
 | Notes | [`docs/controller.md`](docs/controller.md) |
 
